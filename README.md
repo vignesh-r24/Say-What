@@ -13,3 +13,5 @@ We can run both these python files in background, just make sure sound_recorder.
 
 After this we will run server.py which will create the server to get request from client and return them the technical words 
 which speaker might have spoken at that time when confusion was trigerred.
+
+tech_words.txt and nonNoun.txt files will be used in server.py to extract only technical words from text files.
