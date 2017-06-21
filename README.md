@@ -15,3 +15,9 @@ After this we will run server.py which will create the server to get request fro
 which speaker might have spoken at that time when confusion was trigerred.
 
 tech_words.txt and nonNoun.txt files will be used in server.py to extract only technical words from text files.
+
+The client side filE is: client.html
+To support the webapp, you need to run a server on your machine. Do this by typing the following in the terminal - "python -m SimpleHTTPServer [port]"
+
+To get the webapp running, open your browser and enter the address : "localhost:port/PathToFile/client.html". The rest of the functionality is self-explanatory. 
+NOTE: Make sure that the IP address and Port Number in the client and server files are updated accordingly.
